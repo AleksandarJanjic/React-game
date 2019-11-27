@@ -1,0 +1,30 @@
+.counter {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 50% 25%;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: blue;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.icon {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  height: 40px;
+  width: 40px;
+}
+
+.hp {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.ap {
+  grid-column: 3;
+  grid-row: 1;
+}

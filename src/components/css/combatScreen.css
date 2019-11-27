@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.endTurn {
+  height: 40px;
+  width: 40px;
+  color: red;
+}
+
+.infoDiv {
+  height: 10vh;
+  border-bottom: 1px solid black;
+}
+
+.navBar {
+  height: 50%;
+}
+
+.message {
+  display: flex;
+  height: 50%;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  height: 60vh;
+  border-bottom: 1px solid black;
+}
+
+.hud {
+  display: grid;
+  height: 30vh;
+  grid-template-columns: 2fr 5fr 1fr;
+}
+
+.bottomLeft {
+  background-color: green;
+}
+
+.bottomCenter {
+  background-color: gray;
+}
+
+.bottomRight {
+  background-color: yellow;
+}
+
+.infoBox {
+  display: none;
+}

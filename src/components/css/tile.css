@@ -1,0 +1,34 @@
+.tile {
+  width: 90px;
+  height: 110px;
+  display: inline-block;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.rightFlank.AI {
+  margin-top: 30px;
+}
+
+.leftFlank.AI {
+  margin-top: 30px;
+}
+
+.rightFlank.Player {
+  margin-bottom: 30px;
+}
+
+.leftFlank.Player {
+  margin-bottom: 30px;
+}
+
+.unitBase {
+  height: 90px;
+}
+
+.terrainBox {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,22 @@
+.board {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.enemy-tiles {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.friendly-tiles {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
